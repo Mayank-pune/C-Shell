@@ -1,0 +1,15 @@
+char* getHostname();
+char* getUsername();
+char* getCurrentDirectory();
+void initializeShell();
+void printPrompt();
+int isPrefix(const char *a, const char *b);
+int countArgs(char *str);
+int directoryExists(char* path);
+char* getRelativePath(char* base, char* path);
+void echo(char* args);
+void pwd();
+void cd(char* args);
+char* getLastCommand();
+void writeHistory(char* command);
+void printHistory();

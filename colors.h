@@ -1,0 +1,33 @@
+// defining colours and formattings
+#define KNRM  "\033[0m"
+#define KRED  "\033[31m"
+#define KGRN  "\033[32m"
+#define KYEL  "\033[33m"
+#define KBLU  "\033[34m"
+#define KMAG  "\033[35m"
+#define KCYN  "\033[36m"
+#define KWHT  "\033[37m"
+#define KBLK  "\033[30m"
+
+#define BBLK    "\033[0;40m"	
+#define BRED    "\033[0;41m"	
+#define BGRN    "\033[0;42m"	
+#define BYEL    "\033[0;43m"	
+#define BBLU    "\033[0;44m"	
+#define BMAG    "\033[0;45m"	
+#define BCYN    "\033[0;46m"	
+#define BWHT    "\033[0;47m"	
+
+#define FREG    "\033[0;31m"	
+#define FBLD    "\033[1;31m"	
+#define FLIN    "\033[2;31m"	
+#define FITA    "\033[3;31m"	
+#define FUND    "\033[4;31m"	
+#define FBLN    "\033[5;31m"	
+#define FREV    "\033[6;31m"	
+#define FBCK    "\033[7;31m"	
+#define FINV    "\033[8;31m"	
+
+#define RESET   "\033[0m"
+
+#define CLR     "\033[H\033[J"
